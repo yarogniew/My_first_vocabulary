@@ -36,10 +36,30 @@ def wypisz_caly_slownik():
         i += 1
     # print("="*20)
 
-def tlumaczenie_zapis():
-    slowo_pol = input(f"Wpisz tłumaczenie słowa '{slowo_ang}': ")
-    vocabulary[slowo_ang] = slowo_pol
-    print(slowo_ang + " - " + slowo_pol)
+def nowy_wpis_lub_update():
+    while True:
+        wypisz_caly_slownik()
+        wpis = input("\n\tWprowadź słowo - tłumaczenie ('menu' - wyjście): ")
+        wpis_splited = wpis.split("-")
+        slowo_ang = wpis_splited[0].strip()  # usuwanie białych znaków
+        if slowo_ang.upper() == "MENU":
+            break
+        elif len(wpis_splited) == 1:  # sprawdzanie czy jest tłumaczenie
+            continue
+        else:
+            tlumaczenie = wpis_splited[1].strip()
+        # print(slowo_ang + "|" + tlumaczenie)
+
+        if slowo_ang in vocabulary:
+            kontynuacja = input(f"\tSłowo {slowo_ang} jest już w słowniku, nadpisać? t/n   ")
+            if kontynuacja == "t":
+                vocabulary[slowo_ang] = tlumaczenie
+                print(slowo_ang + "-" + vocabulary[slowo_ang])
+            else:
+                break
+        else:  # jeśli nowy wpis
+            vocabulary[slowo_ang] = tlumaczenie
+            print(slowo_ang + "-" + vocabulary[slowo_ang])
 
 def usuwanie_wyrazu():
     while True:
@@ -88,18 +108,8 @@ while True:
                 szukam_slowa()
 
     if poz_menu == "3":  # wprowadzanie słów i tłumaczenia
-        # TODO zmień wprowadzanie jako jedno, potem dzielenie na key i tłumaczenie
-        while True:
-            slowo_ang = input("      Wprowadź słowo angielskie ('menu' - wyjście): ")
+        nowy_wpis_lub_update()
 
-            if slowo_ang.upper() == "MENU":
-                break
-            elif slowo_ang in vocabulary:
-                kontynuacja = input(f"\tSłowo {slowo_ang} jest już w słowniku, zmienić tłumaczenie? t/n   ")
-                if kontynuacja == "t":
-                    tlumaczenie_zapis()
-            else:
-                tlumaczenie_zapis()
     if poz_menu == "4":
         usuwanie_wyrazu()
 

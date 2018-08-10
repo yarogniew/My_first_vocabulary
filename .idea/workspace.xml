@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="43dd7318-aa31-47a3-8c81-02a061ccb67b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MFV_kasowanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/MFV_roboczy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MFD_roboczy.db" beforeDir="false" afterPath="$PROJECT_DIR$/MFD_roboczy.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MFV_kompleks.py" beforeDir="false" afterPath="$PROJECT_DIR$/MFV_kompleks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MFV_roboczy.py" beforeDir="false" afterPath="$PROJECT_DIR$/MFV_roboczy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,23 +73,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="MFV_kompleks.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="40" />
-              <folding>
-                <marker date="1533852307000" expanded="true" signature="341:567" ph="..." />
-              </folding>
+            <state relative-caret-position="333">
+              <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="MFV_roboczy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MFV_roboczy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="94">
+              <caret line="18" selection-start-line="18" selection-end-line="41" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -110,14 +110,14 @@
         <option value="$PROJECT_DIR$/MyFirstVocabulary.py" />
         <option value="$PROJECT_DIR$/MFV_input.py" />
         <option value="$PROJECT_DIR$/MFV_kasowanie.py" />
-        <option value="$PROJECT_DIR$/MFV_kompleks.py" />
         <option value="$PROJECT_DIR$/MFV_roboczy.py" />
+        <option value="$PROJECT_DIR$/MFV_kompleks.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1381" />
-    <option name="y" value="23" />
+    <option name="x" value="15" />
+    <option name="y" value="22" />
     <option name="width" value="1179" />
     <option name="height" value="1057" />
   </component>
@@ -143,7 +143,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MFV_kasowanie">
+  <component name="RunManager" selected="Python.MFV_kompleks">
     <configuration name="MFV_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_first_dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,30 +180,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MFV_kasowanie" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_first_dictionary" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MFV_roboczy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="MFV_kompleks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_first_dictionary" />
@@ -222,9 +198,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="MFV_roboczy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_first_dictionary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MFV_roboczy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="MyFirstDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_first_dictionary" />
@@ -243,20 +234,17 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.MyFirstDictionary" />
       <item itemvalue="Python.MFV_input" />
       <item itemvalue="Python.MFV_kompleks" />
-      <item itemvalue="Python.MFV_kasowanie" />
+      <item itemvalue="Python.MFV_roboczy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MFV_kasowanie" />
         <item itemvalue="Python.MFV_kompleks" />
+        <item itemvalue="Python.MFV_roboczy" />
         <item itemvalue="Python.MFV_input" />
         <item itemvalue="Python.MyFirstDictionary" />
       </list>
@@ -285,26 +273,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1381" y="23" width="1179" height="1057" extended-state="0" />
+    <frame x="15" y="22" width="1179" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17184801" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16683938" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17133164" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36622584" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -322,6 +310,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MFV_roboczy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MFV_roboczy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyFirstVocabulary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -342,20 +358,20 @@
     <entry file="file://$PROJECT_DIR$/MFV.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <marker date="1533852307000" expanded="true" signature="341:567" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/MFD_roboczy.db">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MFV_roboczy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="94">
+          <caret line="18" selection-start-line="18" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
         </state>
       </provider>
     </entry>
