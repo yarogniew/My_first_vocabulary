@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43dd7318-aa31-47a3-8c81-02a061ccb67b" name="Default" comment="" />
+    <list default="true" id="43dd7318-aa31-47a3-8c81-02a061ccb67b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MFV_kasowanie.py" beforeDir="false" afterPath="$PROJECT_DIR$/MFV_roboczy.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +49,32 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="py" value="89" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="89" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+            <state relative-caret-position="236">
+              <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <marker date="1533852307000" expanded="true" signature="341:567" ph="..." />
               </folding>
@@ -66,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MFV_kasowanie.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MFV_roboczy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -84,6 +100,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -92,6 +111,7 @@
         <option value="$PROJECT_DIR$/MFV_input.py" />
         <option value="$PROJECT_DIR$/MFV_kasowanie.py" />
         <option value="$PROJECT_DIR$/MFV_kompleks.py" />
+        <option value="$PROJECT_DIR$/MFV_roboczy.py" />
       </list>
     </option>
   </component>
@@ -101,23 +121,24 @@
     <option name="width" value="1179" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="my_first_dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_first_dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="My_first_vocabulary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_first_vocabulary" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MFV_kompleks">
+  <component name="RunManager" selected="Python.MFV_kasowanie">
     <configuration name="MFV_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_first_dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +196,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MFV_kasowanie.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MFV_roboczy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,8 +255,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MFV_kompleks" />
         <item itemvalue="Python.MFV_kasowanie" />
+        <item itemvalue="Python.MFV_kompleks" />
         <item itemvalue="Python.MFV_input" />
         <item itemvalue="Python.MyFirstDictionary" />
       </list>
@@ -265,20 +286,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1381" y="23" width="1179" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17184801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2642487" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16683938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,18 +344,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MFV_kompleks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+        <state relative-caret-position="236">
+          <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="40" />
           <folding>
             <marker date="1533852307000" expanded="true" signature="341:567" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MFV_kasowanie.py">
+    <entry file="file://$PROJECT_DIR$/MFV_roboczy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="44" selection-end-column="41" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
